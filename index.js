@@ -16,7 +16,7 @@ function save() {
 
 // countEl.textContent = 0
 //     document.getElementById("myText").setAttribute('value', '0');
-        document.getElementById("countEl").reset();
+        document.getElementById("count-el").reset();
 
     count = 0
 clearInput();
