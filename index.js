@@ -14,6 +14,8 @@ function save() {
 //     saveEl.textContent += countStr
     saveEl.textContent += countStr
 
-countEl.textContent = 0
+// countEl.textContent = 0
+    document.getElementById("myText").setAttribute('value', '0');
+
     count = 0
 }
