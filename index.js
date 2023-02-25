@@ -3,7 +3,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 
 function getVal() {
-    count = int(document.querySelector('input').value);
+    count = parseInt(document.querySelector('input').value);
 }
 function increment() {
     count += 1
