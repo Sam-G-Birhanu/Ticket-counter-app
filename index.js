@@ -6,7 +6,9 @@ function increment() {
     count += 1
     countEl.textContent = count
 }
-
+function getVal(){
+    count = document.querySelector('input').value;
+}
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
