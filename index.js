@@ -8,7 +8,7 @@ function getVal() {
 function increment() {
     count += 1
 //     countEl.textContent = count;
-    document.getElementById("count-E").style.backgroundColor='white';
+    document.getElementById("increment-btn").style.backgroundColor='white';
     //     document.getElementById("myText").style.backgroundColor='white';
 
 }
