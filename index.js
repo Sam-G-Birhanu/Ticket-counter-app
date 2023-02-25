@@ -8,7 +8,7 @@ function getVal() {
 function increment() {
     count += 1
 //     countEl.textContent = count;
-    document.getElementById("myText").style.backgroundColor='white';
+    document.getElementById("count-E").style.backgroundColor='white';
     //     document.getElementById("myText").style.backgroundColor='white';
 
 }
@@ -18,7 +18,6 @@ function save() {
     saveEl.textContent += countStr
 
 // countEl.textContent = 0
-//     document.getElementById("myText").setAttribute('value', '0');
      count = 0;
         document.getElementById("count-E").reset();
 
