@@ -7,7 +7,10 @@ function getVal() {
 }
 function increment() {
     count += 1
-//     countEl.textContent = count
+//     countEl.textContent = count;
+    document.getElementById("myText").style.backgroundColor='white';
+    //     document.getElementById("myText").style.backgroundColor='white';
+
 }
 function save() {
     let countStr = count.toString() + " - "
