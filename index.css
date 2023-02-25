@@ -5,13 +5,13 @@ body {
     font-weight: bold;
     text-align: center;
     color: maroon;
-    marigin: 0;
+    margin: 0;
 }
 #count{
     background-color: rgba(245, 245, 220, 0.534);
     width: 100vw;
     height: 85vh;
-    marigin-top: 20vh;
+    margin-top: 20vh;
 }
 
 h1 {
